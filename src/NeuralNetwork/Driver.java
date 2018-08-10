@@ -17,9 +17,9 @@ public class Driver {
         ArrayList<double[]> input_list = new ArrayList<double[]>();
        
         String workingDir = System.getProperty("user.dir");
-        System.out.println("The running dataset is --> " + workingDir + "\\Arabic_Digits_csvTrainImages 60k x 784.csv");
+        System.out.println("The running dataset is --> " + workingDir + "\\train.csv");
         System.out.println();
-        String csvFile = workingDir + "\\Arabic_Digits_csvTrainImages 60k x 784.csv";
+        String csvFile = workingDir + "\\train.csv";
 
         Scanner scanner = null;       
         String InputLine = "";        
